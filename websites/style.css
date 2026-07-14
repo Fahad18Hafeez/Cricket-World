@@ -1,0 +1,62 @@
+*{margin:0px;
+padding:0px;}
+.foodies{
+    display: flex;
+     justify-content:space-between;
+    align-items: center;
+
+    background-color: orange;
+    padding: 20px;
+}
+.menu{
+    display:flex;
+gap:20px;
+}
+.menu a{color:white;}
+.logo{color:white;}
+.hero{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:500px;
+    background-color:beige;
+}
+.hero h1{ font-size:50px;
+color:darkred}
+.hero p{
+    font-size:22px;
+    margin:20px 0;
+}
+.hero button{
+    color:white;
+    margin :1px 30;
+    border:none;
+    background-color:orange;
+    cursor:pointer;
+    border-radius:15px;
+    font-size:40px;
+}
+.features{
+    padding:60px  20px;
+    text-align:center;
+}
+.feature-container{
+    display: flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:40px;
+}
+.feature-card{
+    background-color:white;
+width:250px;
+padding:20px;
+border-radius:10px;
+border:2px solid black;
+}
+.feature-card h3{
+    margin-bottom:15px;
+}
+.feature-card p{
+    color:grey
+}
