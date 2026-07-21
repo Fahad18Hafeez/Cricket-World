@@ -5,17 +5,17 @@
 // console.log("First Day of java script learning");
 // let name = "Fahad Hafeez";
 // console.log(name);
-// let name = "Muhammad Fahad Hafeez";
-// let age = 19;
-// let country = "Pakistan";
-// let isStudent = true;
-// let hobby = "Coding";
+// // let name = "Muhammad Fahad Hafeez";
+// // let age = 19;
+// // let country = "Pakistan";
+// // let isStudent = true;
+// // let hobby = "Coding";
 
-// console.log(typeof name);
-// console.log(typeof age);
-// console.log(typeof country);
-// console.log(typeof isStudent);
-// console.log(typeof hobby);
+// // console.log(typeof name);
+// // console.log(typeof age);
+// // console.log(typeof country);
+// // console.log(typeof isStudent);
+// // console.log(typeof hobby);
 // let a = 15;
 // let b = 4;
 
@@ -26,28 +26,28 @@
 // console.log(a % b);
 // console.log(a ** 2);
 // alert("Welcome to JavaScript!");
-// let name = prompt("Enter your Name");
-// console.log(name);
-// let name=prompt("your name");
-// alert("welcome"+name);
+// // let name = prompt("Enter your Name");
+// // console.log(name);
+// // let name=prompt("your name");
+// // alert("welcome"+name);
 // let age = Number(prompt("Enter Your Age"));
 // console.log("Age: " + age);
-// let a=5;
-// console.log(a!=5);
+// // let a=5;
+// // console.log(a!=5);
 // let password="1234";
 // console.log(password==="1234"
 // )
 // console.log(!true);
 // console.log(!false);
-// let age=15;
-// if(age>=28){
-// console.log("you can vote");}
-// else if(age<=28)
-// {console.log("You can it");
-//    }
-//    else{
-//     console.log("wrong");
-//    }
+// // let age=15;
+// // if(age>=28){
+// // console.log("you can vote");}
+// // else if(age<=28)
+// // {console.log("You can it");
+// //    }
+// //    else{
+// //     console.log("wrong");
+// //    }
 // let day=Number(prompt("enter day number"));
 // switch(day){
 //    case 1:
@@ -69,16 +69,16 @@
 // {console.log(i);
 // i++;
 // }
-// let i=10;
-// while(i>=1){
-//     console.log(i);
-//     i--;
-// }
-// let i=1;
-// do{
-//     console.log(i);
-//     i++;
-// }
+// // let i=10;
+// // while(i>=1){
+// //     console.log(i);
+// //     i--;
+// // }
+// // let i=1;
+// // do{
+// //     console.log(i);
+// //     i++;
+// // }
 // while(i<=5);
 // function greet(){
 //     console.log("welcome");
@@ -115,6 +115,47 @@
 // const subtract=(a, b) =>
 //      a - b;
 // console.log(subtract(20, 5));
-let fruits=["apple","bnana","mango","Orange"];
-console.log(fruits[0]);
-console.log(fruits[3]);
+// let fruits=["apple","bnana","mango","Orange"];
+// console.log(fruits[0]);
+// console.log(fruits[3]);
+// let subjects=["English","Math","Physics","computer"];
+// console.log(subjects[0]);
+// console.log(subjects[2]);
+// let colors=["Red","Green","Blue"];
+// colors[2]="Black"
+// console.log(colors);
+// // let subjects=["English","Math","Physics","Computer","urdu"];
+// // console.log(subjects.length);
+// let numbers=[10,20,30];
+// numbers.push(40);
+// console.log(numbers);
+// let colors=["Red","Green","Blue","Black"];
+// colors.pop();
+// console.log(colors);
+// let numbers=[20,30,40,];
+// numbers.unshift(10);
+// console.log(numbers);
+// let colors=["red","Green","blue","black"];
+// for(let i=0;i<colors.length;i++){
+//     console.log(colors[i]);     
+// }
+let car={
+   brand:"toyota",
+    color:"white",
+    model:2024
+};
+delete car.model;
+console.log(car);
+// let student={
+//     name:"Fahad",
+//     city:"Multan",
+//     age:19
+// };
+// delete student.age;
+// console.log(student);
+// let mobile={
+//     brand:"samsung",
+//     model:"A55"
+// };
+// mobile.color="black";
+// console.log(mobile);
