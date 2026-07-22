@@ -139,13 +139,13 @@
 // for(let i=0;i<colors.length;i++){
 //     console.log(colors[i]);     
 // }
-let car={
-   brand:"toyota",
-    color:"white",
-    model:2024
-};
-delete car.model;
-console.log(car);
+// let car={
+//    brand:"toyota",
+//     color:"white",
+//     model:2024
+// };
+// delete car.model;
+// console.log(car);
 // let student={
 //     name:"Fahad",
 //     city:"Multan",
@@ -159,3 +159,27 @@ console.log(car);
 // };
 // mobile.color="black";
 // console.log(mobile);
+let input = document.getElementById("name");
+let butt0n = document.getElementById("btn");
+
+butten.addEventListener("click", function(){
+    console.log(input.value);
+});
+let heading= document.getElementById("welcome");
+heading.style.fontSize="50px";
+heading.style.color="black";
+heading.style.textAlign="center";
+let school=document.getElementById("school");
+let button = document.getElementById("btn");
+
+// button.addEventListener("click", function () {
+// console.log("Hello Fahad");
+// });let button = document.getElementById("btn");
+
+button.addEventListener("click", function(event){
+    console.log(event);
+});
+school.style.color="white";
+school.style.fontSize="40px";
+school.style.backgroundColor="green";
+school.style.textAlign="center";
